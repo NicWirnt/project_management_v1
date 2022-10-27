@@ -1,0 +1,21 @@
+### USER ROUTER
+
+### GET USER ###
+GET http://localhost:8000/api/v1/user
+
+### PUT
+POST http://localhost:8000/api/v1/user
+Content-Type: application/json
+
+{
+    "firstName" : "Nico",
+    "lastName" : "Wiranata",
+    "email" : "nicowiranata@gmail.com",
+    "phone" : "0451538990",
+    "address" : "",
+    "password" : "Abc123",
+    "dob" : ""
+}
+
+### DELETE
+DELETE http://localhost:8000/api/v1/user
